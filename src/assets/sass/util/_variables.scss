@@ -32,20 +32,43 @@ $font-medium: 'SFProText-Medium';
 $font-semibold: 'SFProText-Semibold'; 
 $font-bold: "SFProText-BoldItalic"; 
 
+
 /*
  * Base colors
 */
 
 // Theme colours
 :root {
+
     --c-primary: #e86a92;
     --c-secondary: #2b2d42;
     --c-black: #000000;
     --c-white: #ffffff;
     --bs-primary: var(--c-primary);
     --bs-secondary: var(--c-secondary);
-    --swiper-navigation-size: 30px;
     --swiper-theme-color: var(--c-black);
     --swiper-navigation-color: var(--c-black);
     --swiper-pagination-color: var(--c-black);
+    --background-greadient:linear-gradient(90deg, #6121f5, #276ef1);
+    --nav-text-background:#f1f4f9;
+    --border-color-primary:#e0e4ea;
+    --c-link-navigation:#276ef1;
+    --c-link-navigation-dark:#222831;
+    --c-link-navigation-hover:#2b2d42;
+    --navigation-hover-bg:#f1f4f9;
+    --navigation-red:#df091d;
+    --nacigation-box-text:#656f84;
+    --navigation-box-bg-hover:#e2e6ec;
+}
+
+//Theme font-size
+:root {
+    --swiper-navigation-size: 30px;
+    --nav-font-size: 14px;
+}
+
+//Theme font family and weight
+:root{
+    --font-family: "Raleway", sans-serif;
+    --font-waght-bold:600;
 }
