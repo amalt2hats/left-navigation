@@ -11,11 +11,13 @@ icon.addEventListener('click', function() {
     navContainer.classList.remove('open');
     document.body.classList.remove('no-scroll');
     icon.getElementsByTagName('i')[0].classList.remove('bi-x-lg');
-    navs.style.display = 'none';
+    document.getElementsByClassName('overlay')[0].classList.remove ('open');
+    
   } else {
     navContainer.classList.add('open');
     document.body.classList.add('no-scroll');
     icon.getElementsByTagName("i")[0].classList.add('bi-x-lg');
+    document.getElementsByClassName('overlay')[0].classList.add ('open');
   }
 });
 
